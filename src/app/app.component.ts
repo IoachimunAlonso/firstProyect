@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  saints: string[] = ['Santo Tomas de Aquino', 'Santa Teresita del niño Jesús', 'San Juan Pablo II'];   
+  titleGranted: string[] = ['Doctor Ecclesiae', 'Doctor Ecclesiae', 'Papa'];
+
 }
